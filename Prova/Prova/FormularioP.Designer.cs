@@ -70,6 +70,7 @@
             btnCadCliente.TabIndex = 6;
             btnCadCliente.Text = "Cadastro de Cliente";
             btnCadCliente.UseVisualStyleBackColor = true;
+            btnCadCliente.Click += btnCadCliente_Click;
             // 
             // btnCadUsu
             // 

@@ -27,6 +27,15 @@ namespace Prova
         private void btnCadUsu_Click(object sender, EventArgs e)
         {
             CadastroU usuario = new CadastroU(usuariologado);
+            usuario.Show();
+            this.Hide();
+        }
+
+        private void btnCadCliente_Click(object sender, EventArgs e)
+        {
+            CadastroC cliente = new CadastroC();
+            cliente.Show();
+            this.Hide();
         }
     }
 }
