@@ -52,6 +52,7 @@
             btnCadPed.TabIndex = 8;
             btnCadPed.Text = "Cadastro de Pedidos";
             btnCadPed.UseVisualStyleBackColor = true;
+            btnCadPed.Click += btnCadPed_Click;
             // 
             // btnCadProduto
             // 

@@ -44,5 +44,12 @@ namespace Prova
             produto.Show();
             this.Hide();
         }
+
+        private void btnCadPed_Click(object sender, EventArgs e)
+        {
+            CadastroP pedido = new CadastroP();
+            pedido.Show();
+            this.Hide();
+        }
     }
 }
