@@ -4,6 +4,9 @@
     <Compile Update="CadastroC.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="CadastroPr.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="CadastroU.cs">
       <SubType>Form</SubType>
     </Compile>

@@ -61,6 +61,7 @@
             btnCadProduto.TabIndex = 7;
             btnCadProduto.Text = "Cadastro de Produto";
             btnCadProduto.UseVisualStyleBackColor = true;
+            btnCadProduto.Click += btnCadProduto_Click;
             // 
             // btnCadCliente
             // 
